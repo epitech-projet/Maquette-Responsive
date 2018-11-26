@@ -1,0 +1,669 @@
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+}
+	
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+header
+{
+
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+
+}
+ 
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
+
+.article1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	background-color:  #74ffdd ;
+
+}
+
+.grand_image
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.slider{
+width:400px;
+height:200px;
+border:solid 1px #555;
+padding:0;
+position:relative;
+margin:150px auto;
+}
+
+#slider-list{
+list-style-type:none;
+display:flex;
+margin:0;
+position:absolute;
+left:0;
+top:0;
+padding:0;
+}
+
+#slider-list img{
+width:400px;
+height:200px;
+margin:0;
+}
+
+@keyframes slide{
+0%{left:0px;}
+10%{left:0px;}
+35%{left:-100%;}
+45%{left:-100%;}
+75%{left:-200%;}
+85%{left:-200%;}
+90%{left:0px;}
+}
+
+
+
+
+.fleche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(90deg);
+}
+
+.cadre_violet
+{
+	display: flex;
+	justify-content: center;
+	text-decoration-color:#FFFFFF;
+	background-color:#c6b6c8 ;	
+}
+
+h3
+{
+	text-decoration-color:white;	
+}
+
+.n1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	margin: 20px 20px 20px 20px;
+
+}
+.text
+{
+	display: flex;
+	justify-content: center;	
+}
+#cadre
+{
+	border-top:solid 1px black;
+}
+
+#art3
+{
+	display: flex;
+	justify-content: center;
+
+}
+.centre
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  #74ffdd ;	
+}
+.drapeau
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#drap
+{
+	border: solid 1px black;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.dernier
+{
+	display: flex;
+	justify-content: center;
+	border-top:solid 1px black;	
+	background-color:  #74ffdd ;
+}
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#how
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#bas
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.pied
+{
+	display: flex;
+	flex-direction: column;
+}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}
+
+
+@media(max-width: 767px){
+	body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+}
+	
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+header
+{
+
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+
+}
+ 
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
+
+.article1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	background-color:  #74ffdd ;
+
+}
+
+.grand_image
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.fleche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(90deg);
+}
+
+.cadre_violet
+{
+	display: flex;
+	justify-content: center;
+	text-decoration-color:#FFFFFF;
+	background-color:#c6b6c8 ;	
+}
+
+h3
+{
+	text-decoration-color:white;	
+}
+
+.n1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	margin: 20px 20px 20px 20px;
+
+}
+.text
+{
+	display: flex;
+	justify-content: center;	
+}
+#cadre
+{
+	border-top:solid 1px black;
+}
+
+#art3
+{
+	display: flex;
+	justify-content: center;
+
+}
+.centre
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  #74ffdd ;	
+}
+.drapeau
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#drap
+{
+	border: solid 1px black;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.dernier
+{
+	display: flex;
+	justify-content: center;
+	border-top:solid 1px black;	
+	background-color:  #74ffdd ;
+}
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#how
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#bas
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.pied
+{
+	display: flex;
+	flex-direction: column;
+}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+}
+	
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+header
+{
+
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+
+}
+ 
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
+
+.article1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	background-color:  #74ffdd ;
+
+}
+
+.grand_image
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.fleche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(90deg);
+}
+
+.cadre_violet
+{
+	display: flex;
+	justify-content: center;
+	text-decoration-color:#FFFFFF;
+	background-color:#c6b6c8 ;	
+}
+
+h3
+{
+	text-decoration-color:white;	
+}
+
+.n1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	margin: 20px 20px 20px 20px;
+
+}
+.text
+{
+	display: flex;
+	justify-content: center;	
+}
+#cadre
+{
+	border-top:solid 1px black;
+}
+
+#art3
+{
+	display: flex;
+	justify-content: center;
+
+}
+.centre
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  #74ffdd ;	
+}
+.drapeau
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#drap
+{
+	border: solid 1px black;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.dernier
+{
+	display: flex;
+	justify-content: center;
+	border-top:solid 1px black;	
+	background-color:  #74ffdd ;
+}
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#how
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#bas
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.pied
+{
+	display: flex;
+	flex-direction: column;
+}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}
+}
+
