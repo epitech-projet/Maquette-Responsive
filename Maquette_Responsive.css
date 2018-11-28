@@ -1,3 +1,285 @@
+@charset "UTF-8";
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+	width :100% ;
+}
+	
+
+.header_plan1_logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+
+}
+ 
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
+
+.article1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	background-color:  #74ffdd ;
+
+}
+
+.grand_image
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.fleche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(90deg);
+}
+
+.cadre_violet
+{
+	display: flex;
+	justify-content: center;
+	text-decoration-color:#FFFFFF;
+	background-color:#c6b6c8 ;	
+}
+
+h3
+{
+	text-decoration-color:white;	
+}
+
+.n1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	margin: 20px 20px 20px 20px;
+
+}
+.text
+{
+	display: flex;
+	justify-content: center;	
+}
+#cadre
+{
+	border-top:solid 1px black;
+}
+
+#art3
+{
+	display: flex;
+	justify-content: center;
+
+}
+.centre
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  #74ffdd ;	
+}
+.drapeau
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#drap
+{
+	border: solid 1px black;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.dernier
+{
+	display: flex;
+	justify-content: center;
+	border-top:solid 1px black;	
+	background-color:  #74ffdd ;
+}
+
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#how
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#bas
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.pied
+{
+	display: flex;
+	flex-direction: column;
+}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}
+
+/*smartphone*/
+@media screen and (min-width: 320px){
+.menu
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+	list-style-type: none;
+	border: solid 1px white;
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+	border: solid 1px white;		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;
+
+		
+	
+}
+
+#art3
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.drapeau
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+
+.titre2
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	
+	
+}	
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}
+
+}
+
+/* tablette */
+@media(min-width: 426px) and (max-width: 767px){
 
 body
 {
@@ -18,11 +300,6 @@ body
 	padding: : 15px 15px 15px 15px;
 }
 
-header
-{
-
-}
-
 .menu
 {
 	display: flex;
@@ -32,7 +309,6 @@ header
 	flex-wrap: nowrap;
 	text-decoration-color:  #000000;
 }
-
 
 #plan2
 {
@@ -52,9 +328,8 @@ header
 	list-style-type: none;
 	text-decoration-color:  #000000 ;
 	font-weight: bold;
-
 }
- 
+
 .titre
 {
 	list-style-type: none;
@@ -77,343 +352,13 @@ li
 	text-decoration-color:  #000000 ;	
 }
 
-.article1
-{
-	display: flex;
-	flex-direction: column;
-	font-family: Droid Sans; 
-	font-size: 13px;
-	background-color:  #74ffdd ;
-
 }
 
-.grand_image
-{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 20px;
-}
-
-.fleche
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transform: rotate(90deg);
-}
-
-.cadre_violet
-{
-	display: flex;
-	justify-content: center;
-	text-decoration-color:#FFFFFF;
-	background-color:#c6b6c8 ;	
-}
-
-h3
-{
-	text-decoration-color:white;	
-}
-
-.n1
-{
-	display: flex;
-	flex-direction: column;
-	font-family: Droid Sans; 
-	margin: 20px 20px 20px 20px;
-
-}
-.text
-{
-	display: flex;
-	justify-content: center;	
-}
-#cadre
-{
-	border-top:solid 1px black;
-}
-
-#art3
-{
-	display: flex;
-	justify-content: center;
-
-}
-.centre
-{
-	display: flex;
-	flex-direction: column;
-	background-color:  #74ffdd ;	
-}
-.drapeau
-{
-	display: flex;
-	justify-content: center;	
-}
-
-#drap
-{
-	border: solid 1px black;
-	margin: 5px 5px 5px 5px;
-	padding: 5px 5px 5px 5px;
-}
-
-.dernier
-{
-	display: flex;
-	justify-content: center;
-	border-top:solid 1px black;	
-	background-color:  #74ffdd ;
-}
-.imagtext
-{
-	display: flex;
-	justify-content: center;	
-}
-
-.artdrap
-{
-	display: flex;
-	flex-direction: column;	
-}
-
-#how
-{
-	display: flex;
-	flex-direction: column;	
-}
-
-#bas
-{
-	display: flex;
-	justify-content: center;	
-}
-
-.pied
-{
-	display: flex;
-	flex-direction: column;
-}
-footer
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color:#c6b6c8 ;	
-	border: solid black 1px;	
-}
+/*ordi portable */
+@media (min-width: 768px) and (max-width: 1388px){}
 
 
-@media(max-width: 767px){
-	body
-{
-	display: flex;
-	flex-direction: column;
-	font-family: Droid Sans; 
-	font-size: 13px;
-	margin: 0px;
-}
-	
-
-.logos
-{
-	display: flex;
-	justify-content: center;
-	background-color:  #74ffdd ;
-	padding: : 15px 15px 15px 15px;
-}
-
-header
-{
-
-}
-
-.menu
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: solid black 1px;
-	flex-wrap: nowrap;
-	text-decoration-color:  #000000;
-}
+@media screen (min-width: 1389px){}
 
 
-#plan2
-{
-	background-color:#c6b6c8 ;
-}
 
-#place
-{
-	display: center;
-	justify-content: center;
-	align-items: center;
-}
-
-#liste
-{
-	display: flex;
-	list-style-type: none;
-	text-decoration-color:  #000000 ;
-	font-weight: bold;
-
-}
- 
-.titre
-{
-	list-style-type: none;
-	text-decoration-color:#000000 ;
-	align-items: center;
-	display: flex;
-	flex-wrap: nowrap;
-	
-}
-
-ol
-{
-	list-style-type: none;
-	text-decoration-color: #000000 ;
-		
-}
-
-li
-{
-	text-decoration-color:  #000000 ;	
-}
-
-.article1
-{
-	display: flex;
-	flex-direction: column;
-	font-family: Droid Sans; 
-	font-size: 13px;
-	background-color:  #74ffdd ;
-
-}
-
-.grand_image
-{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 20px;
-}
-
-.fleche
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transform: rotate(90deg);
-}
-
-.cadre_violet
-{
-	display: flex;
-	justify-content: center;
-	text-decoration-color:#FFFFFF;
-	background-color:#c6b6c8 ;	
-}
-
-h3
-{
-	text-decoration-color:white;	
-}
-
-.n1
-{
-	display: flex;
-	flex-direction: column;
-	font-family: Droid Sans; 
-	margin: 20px 20px 20px 20px;
-
-}
-.text
-{
-	display: flex;
-	justify-content: center;	
-}
-#cadre
-{
-	border-top:solid 1px black;
-}
-
-#art3
-{
-	display: flex;
-	justify-content: center;
-
-}
-.centre
-{
-	display: flex;
-	flex-direction: column;
-	background-color:  #74ffdd ;	
-}
-.drapeau
-{
-	display: flex;
-	justify-content: center;	
-}
-
-#drap
-{
-	border: solid 1px black;
-	margin: 5px 5px 5px 5px;
-	padding: 5px 5px 5px 5px;
-}
-
-.dernier
-{
-	display: flex;
-	justify-content: center;
-	border-top:solid 1px black;	
-	background-color:  #74ffdd ;
-}
-.imagtext
-{
-	display: flex;
-	justify-content: center;	
-}
-
-.artdrap
-{
-	display: flex;
-	flex-direction: column;	
-}
-
-#how
-{
-	display: flex;
-	flex-direction: column;	
-}
-
-#bas
-{
-	display: flex;
-	justify-content: center;	
-}
-
-.pied
-{
-	display: flex;
-	flex-direction: column;
-}
-footer
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color:#c6b6c8 ;	
-	border: solid black 1px;	
-}
-
-.textbas
-{
-	padding: 10px 10px 10px 10px;
-	margin: 5px 5px 5px 5px;
-}

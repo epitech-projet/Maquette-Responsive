@@ -1,0 +1,71 @@
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+	width :100% ;
+}
+	
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+}
+
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
