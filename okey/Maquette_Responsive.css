@@ -191,6 +191,13 @@ h3
 	justify-content: center;	
 }
 
+#bouton
+{
+	border: solid 1px black;
+	background: green;
+	text-decoration-color: white ;
+}
+
 .pied
 {
 	display: flex;
@@ -416,4 +423,5 @@ footer
 {
 	padding: 10px 10px 10px 10px;
 	margin: 5px 5px 5px 5px;
+}
 }

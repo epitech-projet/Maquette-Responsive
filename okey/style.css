@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+	width :100% ;
+}
+	
+
+.header_plan1_logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+
+
+}
+
+/* tablette 
+@media(min-width: 426px) and (max-width: 767px){
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+	width :100% ;
+}
+	
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	background-color:  #74ffdd ;
+	padding: : 15px 15px 15px 15px;
+}
+
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid black 1px;
+	flex-wrap: nowrap;
+	text-decoration-color:  #000000;
+}
+
+#plan2
+{
+	background-color:#c6b6c8 ;
+}
+
+#place
+{
+	display: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#liste
+{
+	display: flex;
+	list-style-type: none;
+	text-decoration-color:  #000000 ;
+	font-weight: bold;
+}
+
+.titre
+{
+	list-style-type: none;
+	text-decoration-color:#000000 ;
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+ol
+{
+	list-style-type: none;
+	text-decoration-color: #000000 ;
+		
+}
+
+li
+{
+	text-decoration-color:  #000000 ;	
+}
+
+}
+
+ordi portable 
+@media (min-width: 768px) and (max-width: 1388px){}
+
+
+@media screen (min-width: 1389px){}*/
+
+
+

@@ -69,3 +69,139 @@ li
 {
 	text-decoration-color:  #000000 ;	
 }
+.article1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	background-color:  #74ffdd ;
+
+}
+
+.grand_image
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.fleche
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(90deg);
+}
+
+.cadre_violet
+{
+	display: flex;
+	justify-content: center;
+	text-decoration-color:#FFFFFF;
+	background-color:#c6b6c8 ;	
+}
+
+h3
+{
+	text-decoration-color:white;	
+}
+
+.n1
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	margin: 20px 20px 20px 20px;
+
+}
+.text
+{
+	display: flex;
+	justify-content: center;	
+}
+#cadre
+{
+	border-top:solid 1px black;
+}
+
+#art3
+{
+	display: flex;
+	justify-content: center;
+
+}
+.centre
+{
+	display: flex;
+	flex-direction: column;
+	background-color:  #74ffdd ;	
+}
+.drapeau
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#drap
+{
+	border: solid 1px black;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.dernier
+{
+	display: flex;
+	justify-content: center;
+	border-top:solid 1px black;	
+	background-color:  #74ffdd ;
+}
+.imagtext
+{
+	display: flex;
+	justify-content: center;	
+}
+
+.artdrap
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#how
+{
+	display: flex;
+	flex-direction: column;	
+}
+
+#bas
+{
+	display: flex;
+	justify-content: center;	
+}
+
+#buttom
+{
+	display: flex;
+	justify-content: center;
+	border: solid 1px black;
+	background: green;
+	text-decoration-color: white ;
+}
+
+.pied
+{
+	display: flex;
+	flex-direction: column;
+}
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#c6b6c8 ;	
+	border: solid black 1px;	
+}

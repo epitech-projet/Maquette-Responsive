@@ -1,6 +1,15 @@
-@media(min-width: 768px) and (max-width: 1388px)
+
+body
 {
+	display: flex;
+	flex-direction: column;
+	font-family: Droid Sans; 
+	font-size: 13px;
+	margin: 0px;
+	width :100% ;
+}
 	
+
 .logos
 {
 	display: flex;
@@ -12,13 +21,12 @@
 .menu
 {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	border: solid black 1px;
 	flex-wrap: nowrap;
 	text-decoration-color:  #000000;
 }
-
 
 #plan2
 {
@@ -38,9 +46,8 @@
 	list-style-type: none;
 	text-decoration-color:  #000000 ;
 	font-weight: bold;
-
 }
- 
+
 .titre
 {
 	list-style-type: none;
@@ -62,7 +69,6 @@ li
 {
 	text-decoration-color:  #000000 ;	
 }
-
 .article1
 {
 	display: flex;
@@ -124,7 +130,7 @@ h3
 #art3
 {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 
 }
 .centre
@@ -136,7 +142,7 @@ h3
 .drapeau
 {
 	display: flex;
-	flex-direction: column;	
+	justify-content: center;	
 }
 
 #drap
@@ -177,6 +183,15 @@ h3
 	justify-content: center;	
 }
 
+#buttom
+{
+	display: flex;
+	justify-content: center;
+	border: solid 1px black;
+	background: green;
+	text-decoration-color: white ;
+}
+
 .pied
 {
 	display: flex;
@@ -190,5 +205,3 @@ footer
 	background-color:#c6b6c8 ;	
 	border: solid black 1px;	
 }
-}
-
